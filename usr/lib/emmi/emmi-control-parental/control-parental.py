@@ -4,8 +4,8 @@
 """
  Tuquito Control Parental
  Copyright (C) 2011
- Author: Mario Colque <mario@tuquito.org.ar>
- Tuquito Team! - www.tuquito.org.ar
+ Author: Mario Colque <mario@emmi.org.ar>
+ Tuquito Team! - www.emmi.org.ar
 
  This program is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
