@@ -22,17 +22,17 @@
 import gtk, gettext, os, time
 
 # i18n
-gettext.install('tuquito-control-parental', '/usr/share/tuquito/locale')
+gettext.install('emmi-control-parental', '/usr/share/emmi/locale')
 
 #-Variables
 user = os.environ.get('SUDO_USER')
 hosts = '/etc/hosts'
-hosts_tmp = '/usr/lib/tuquito/tuquito-control-parental/control.tcp'
+hosts_tmp = '/usr/lib/emmi/emmi-control-parental/control.tcp'
 
 class ControlP:
     def __init__(self):
         self.glade = gtk.Builder()
-        self.glade.add_from_file('/usr/lib/tuquito/tuquito-control-parental/control-parental.glade')
+        self.glade.add_from_file('/usr/lib/emmi/emmi-control-parental/control-parental.glade')
         self.window = self.glade.get_object('window')
         self.window.set_title(_('Parental Control'))
         self.glade.get_object('toolbutton_import').set_label(_('Import list'))
@@ -62,7 +62,7 @@ class ControlP:
         self.window.show()
 
     def about(self, widget, data=None):
-        self.glade.get_object('about').set_comments(_('Access control to websites for Tuquito.'))
+        self.glade.get_object('about').set_comments(_('Access control to websites for Emmi.'))
         self.glade.get_object('about').show()
 
     def close_about(self, widget, data=None):
@@ -90,7 +90,7 @@ class ControlP:
                     dom = dom + ' ' + '.'.join(parts[1:])
                 else:
                     dom = 'www.' + dom + ' ' + dom
-        domain = '0.0.0.0\t' + dom + '\t#' + _('blocked by Tuquito')
+        domain = '0.0.0.0\t' + dom + '\t#' + _('blocked by Emmi')
         self.model = self.treeview_domains.get_model()
         iter = self.model.insert_before(None, None)
         self.model.set_value(iter, 0, dom)

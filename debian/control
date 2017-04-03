@@ -1,11 +1,11 @@
-Source: tuquito-control-parental
+Source: emmi-control-parental
 Section: admin
 Priority: extra
 Maintainer: Mario Colque <mario@tuquito.org.ar>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.8.1
 
-Package: tuquito-control-parental
+Package: emmi-control-parental
 Architecture: all
-Description: Control parental de Tuquito
+Description: Control parental de Emmi
  Aplicación que permite el control de acceso a sitios web utilizandon bloqueos en el archivo /etc/hosts

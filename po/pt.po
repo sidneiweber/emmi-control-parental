@@ -18,7 +18,7 @@ msgstr ""
 
 #: usr/lib/tuquito/tuquito-control-parental/control-parental.py:38
 msgid "Parental Control"
-msgstr "Filtros de Conteúdo do Tuquito"
+msgstr "Filtros de Conteúdo do Emmi"
 
 #: usr/lib/tuquito/tuquito-control-parental/control-parental.py:39
 #: usr/lib/tuquito/tuquito-control-parental/control-parental.py:114
@@ -36,7 +36,7 @@ msgstr "Sites bloqueados"
 
 #: usr/lib/tuquito/tuquito-control-parental/control-parental.py:66
 msgid "Access control to websites for Tuquito."
-msgstr "Filtros de Conteúdo do Tuquito."
+msgstr "Filtros de Conteúdo do Emmi."
 
 #: usr/lib/tuquito/tuquito-control-parental/control-parental.py:75
 msgid "Add domain"

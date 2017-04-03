@@ -1,0 +1,2 @@
+#!/bin/bash
+gksu /usr/lib/emmi/emmi-control-parental/control-parental.py -D /usr/share/applications/emmi-control-parental.desktop

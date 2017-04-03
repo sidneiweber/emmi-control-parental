@@ -1,2 +1,0 @@
-#!/bin/bash
-gksu /usr/lib/tuquito/tuquito-control-parental/control-parental.py -D /usr/share/applications/tuquito-control-parental.desktop
