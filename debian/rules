@@ -36,8 +36,8 @@ install: build
 	dh_installdirs
 
 	# Add here commands to install the package into debian/aptito.
-	#$(MAKE) DESTDIR=$(CURDIR)/debian/tuquito-control-parental install
-	cp -af usr $(CURDIR)/debian/tuquito-control-parental/
+	#$(MAKE) DESTDIR=$(CURDIR)/debian/emmi-control-parental install
+	cp -af usr $(CURDIR)/debian/emmi-control-parental/
 
 # Build architecture-independent files here.
 binary-indep: install
